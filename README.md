@@ -1,5 +1,6 @@
 ## What is MimCal
 MimCal is advance calculate forex and crypto currency market can calculate stop loss and Entry lot of size
+MimCal working on windows, Linux, Macos
 Mimcal become easy way to calcution of trading.
 
 ## Document
@@ -32,6 +33,11 @@ Mimcal become easy way to calcution of trading.
 </p>
  
 ## Prerequisites
+### MimCal for windows 
+<p>  download exe file</p>
+
+### Mimcal for Linux and macos
+
 <p> Tkinter for GUI <p>
 <pre>
  <code> pip install tkinter </code>
