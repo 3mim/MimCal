@@ -42,7 +42,7 @@ Mimcal become easy way to calcution of trading.
  <code> pip install customtkinter </code>
 </pre>
 
-<p> connect to web  <p>
+<p> webbrowser  <p>
 <pre>
  <code> pip install webbrowser </code>
 </pre>
