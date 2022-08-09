@@ -28,15 +28,33 @@ Mimcal use  python ,tkinter and custominter for GUI
 <br>
 
 <p align="center" background="red">
+ intall tk inter
   <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
 </p>
  
- 
+## Prerequisites
+<p> Tkinter for GUI <p>
+<pre>
+ <code> pip install tkinter </code>
+</pre>
 
+<p> customtkinter for  modernize GUI <p>
+<pre>
+ <code> pip install customtkinter </code>
+</pre>
+
+<p> connect to web  <p>
+<pre>
+ <code> pip install webbrowser </code>
+</pre>
  
 
 ## personal info
-email: morrtteeza@gmail.com
+<p> email:
+ <a href="morrtteeza@gmail.com">
+  morrtteeza@gmail.com
+ </a>
+</p>
 website: https://treem.ir
 
 
