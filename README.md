@@ -28,7 +28,6 @@ Mimcal use  python ,tkinter and custominter for GUI
 <br>
 
 <p align="center" background="red">
- intall tk inter
   <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
 </p>
  
