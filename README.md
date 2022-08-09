@@ -7,9 +7,6 @@ Mimcal use  python ,tkinter and custominter for GUI
 
 ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
-<style>
-img {border-radius:20px}
-</style>
 
 ## feature
  Dark and lLight Mode
