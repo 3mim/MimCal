@@ -9,14 +9,23 @@ Mimcal use  python ,tkinter and custominter for GUI
 
 
 ## features
+<h3 align="center" >
  Dark and Light Mode
+</h3>
+
+<br>
 
 <p align="center">
   <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif?raw=true" style="border-radius: 20px !Important;" with="100 px" />
 </p>
 
- 
-Two language (English and persian)
+<hr>
+
+<h3 align="center"  >
+ Two language (English and persian)  
+</h3>
+
+<br>
 
 <p align="center" background="red">
   <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
