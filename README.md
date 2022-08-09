@@ -10,14 +10,14 @@ Mimcal use  python ,tkinter and custominter for GUI
 
 
 ## feature
- Dark and lLight mode     <--------------------------------------------------------------------------->      Two language (English and persian)
+ Dark and lLight Mode
 
  
- ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif)  ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif)
+![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif)  
 
  
-
- 
+Two language (English and persian)
+![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif)
  
  
 
