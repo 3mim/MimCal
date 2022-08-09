@@ -2,19 +2,24 @@
 MimCal is advance calculate forex and crypto currency market can calculate stop loss and Entry lot of size
 Mimcal become easy way to calcution of trading.
 
-## Documnet
+## Document
 Mimcal use  python ,tkinter and custominter for GUI
-![alt text](http://url/to/img.png)
+
+![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
 
 
-## featcher
+## feature
  Dark and lLight mode
- ![alt text](http://url/to/img.png)
+ 
+ ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif)
+ 
 
  
  Two language (English and persian)
- ![alt text](http://url/to/img.png)
+ 
+ 
+ ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif)
 
  
 
