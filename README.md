@@ -8,15 +8,16 @@ Mimcal use  python ,tkinter and custominter for GUI
 ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
 
-## feature
- Dark and lLight Mode
+## features
+ Dark and Light Mode
 
 <p align="center">
-  <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif?raw=true" style="border-radius: 20px !Important;" />
+  <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif?raw=true" style="border-radius: 20px !Important;" with="100 px" />
 </p>
 
  
 Two language (English and persian)
+
 <p align="center" background="red">
   <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
 </p>
