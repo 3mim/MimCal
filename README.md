@@ -3,8 +3,7 @@ MimCal is advance calculate forex and crypto currency market can calculate stop 
 Mimcal become easy way to calcution of trading.
 
 ## Document
-Mimcal use  python ,tkinter and custominter for GUI
-
+<p> if you're trader dont be doubt that you need Mimcal </p>
 ![alt text](https://github.com/3mim/MimCal/blob/main/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
 
@@ -46,6 +45,8 @@ Mimcal use  python ,tkinter and custominter for GUI
 <pre>
  <code> pip install webbrowser </code>
 </pre>
+ 
+ ## How to use it
  
 
 ## personal info
