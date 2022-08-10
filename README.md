@@ -12,15 +12,20 @@ Mimcal become easy way to calcution of trading.
 ### Crypto
 <p align="center">
    <p>if you want to cal stop loss you needed 2 entry: </p>
-   <p>  1.Risk  </p>
-   <p> 2.Leverage </p>
+   <p>  1. Risk  </p>
+   <p> 2. Leverage </p>
    
   <img width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_crypto.gif?raw=true" style="border-radius: 20px !Important;" />
 </p>
 
 ### forex
 <p align="center">
-
+   <p>if you want to cal Entry lot size of Forex  needed 4 entry: </p>
+   <p>  1. Margin  </p>
+   <p>  1. Risk  </p>
+   <p>  1. Stop Loss  </p>
+   <p>  1. 1Lot per $  </p>
+   
   <img width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true" style="border-radius: 20px !Important;"  />
 </p>
 
