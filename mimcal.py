@@ -12,7 +12,7 @@ from pyglet import resource,font
 from webbrowser import open
 
 
-resource.add_font('IRANMarker.ttf')
+resource.add_font('fonts/IRANMarker.ttf')
 font_ = font.load('IRANMarker')
 
 
