@@ -54,7 +54,8 @@ Mimcal become easy way to calcution of trading.
  <code> pip install webbrowser </code>
 </pre>
 
-###pyinsterller
+## pyinsterller
+
 ### if upx install
 <pre>
  <code> pyinstaller --upx-dir "upx address on youre device" -y --clean -F  --noconfirm   --onefile  --windowed --add-data "customtkinter library address" --add-data "custom font address" -i " youre icon location"   youre_script.py </code>
