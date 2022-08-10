@@ -75,6 +75,11 @@ Mimcal become easy way to calcution of trading.
  <code> pip install webbrowser </code>
 </pre>
 
+<p> pyglet for custom fonts  <p>
+<pre>
+ <code> pip install pyglet </code>
+</pre>
+
 ## pyinstaller
 
 ### if upx install
