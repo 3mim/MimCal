@@ -14,8 +14,8 @@ Mimcal become easy way to calcution of trading.
    <p align="center">if you want to cal stop loss you needed 2 entry: </p>
    <p align="center">  1. Risk  </p>
    <p align="center"> 2. Leverage </p>
+   <p align="center"> <img  align="center" width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_crypto.gif?raw=true"/> </p>
    
-  <img  align="center" width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_crypto.gif?raw=true"/>
 </p>
 
 ### forex
@@ -25,8 +25,7 @@ Mimcal become easy way to calcution of trading.
    <p align="center">  1. Risk  </p>
    <p align="center">  1. Stop Loss  </p>
    <p align="center">  1. 1Lot per $  </p>
-   
-  <img align="center" width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true"  />
+   <p align="center"> <img align="center" width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true"  /> </p>
 </p>
 
 
