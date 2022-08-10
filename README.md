@@ -61,10 +61,7 @@ Mimcal become easy way to calcution of trading.
  <code> pyinstaller --upx-dir "upx address on youre device" -y --clean -F  --noconfirm   --onefile  --windowed --add-data "customtkinter library address" --add-data "custom font address" -i " youre icon location"   youre_script.py </code>
 </pre>
 
-### if upx not install
-<pre>
- <code> pyinstaller -y --clean -F  --noconfirm   --onefile  --windowed --add-data "customtkinter library address" --add-data "custom font address" -i " youre icon location"   youre_script.py </code>
-</pre>
+
 
 ### example code
 <pre>
