@@ -50,21 +50,22 @@ font_english = 'aria'
 # start  -> title,size ,icon
 window = Tk()
 window.title('MimCal')
-window.geometry('420x400')
-window.resizable(width=False,height=False)
-window.attributes('-topmost', True)
-# window.iconbitmap(r'C:\Users\MORTEZA\Documents\pythonCode\mori\mimcal.ico')
+window.geometry('420x500')
+window.maxsize(420,700)
+window.minsize(420,340)
 
+window.resizable(width=False,height=True)
+window.attributes('-topmost', True)
 # end  -> title,size ,icon
 
 # start all functions
 # menu funtion
-def how_use():
-        open('https://treem.ir', new=2)
+def git():
+        open('https://github.com/3mim/MimCal', new=2)
 
 
 def mim():
-    open('https://treem.ir', new=2)
+    open('https://treem.ir/mimcal', new=2)
 
 def about():
     l = switch_language.get()
@@ -355,7 +356,7 @@ def create_menu():
             menubar = Menu(window)
             menubar.add_command(label='About',command=about)
             menubar.add_command(label='My website',command=mim) 
-            menubar.add_command(label='How to use',command=how_use)
+            menubar.add_command(label='Github',command=git)
 
 
             cascade = Menu(menubar,tearoff=0)
@@ -367,7 +368,7 @@ def create_menu():
             menubar = Menu(window)
             menubar.add_command(label='درباره نرم افزار',command=about)
             menubar.add_command(label='سایت نویسنده',command=mim)
-            menubar.add_command(label='اموزش استفاده',command=how_use)
+            menubar.add_command(label='گیت هاب',command=git)
 
 
             cascade = Menu(menubar,tearoff=0)
@@ -539,3 +540,5 @@ switch_language.select()
 
 my_canvas.create_window(0,0,window=mainframe)
 window.mainloop()
+
+
