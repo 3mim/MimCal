@@ -14,7 +14,7 @@ Mimcal become easy way to calcution of trading.
    <p align="center">if you want to cal stop loss you needed 2 entry: </p>
    <p align="center">  1. Risk   </p>
    <p align="center"> 2. Leverage </p>
-   <p align="center"> <img  width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_crypto.gif?raw=true"/> </p>
+   <p align="center"> <img  width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_crypto.gif?raw=true"/> </p>
    
 </p>
 
@@ -25,7 +25,7 @@ Mimcal become easy way to calcution of trading.
    <p align="center">  2. Risk  </p>
    <p align="center">  3. Stop Loss (distance of stop loss to entry trade in pip)  </p>
    <p align="center">  4. 1Lot per $ (value of 1 pip per 1 lot) </p>
-   <p align="center"> <img  width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true"  /> </p>
+   <p align="center"> <img  width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true"  /> </p>
 </p>
 
 
@@ -38,7 +38,7 @@ Mimcal become easy way to calcution of trading.
 <br>
 
 <p align="center">
-  <img width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/dark.gif?raw=true" />
+  <img width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/dark.gif?raw=true" />
 </p>
 
 <hr>
@@ -50,7 +50,7 @@ Mimcal become easy way to calcution of trading.
 <br>
 
 <p align="center" background="red">
-  <img width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/language.gif?raw=true" />
+  <img width="40%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/language.gif?raw=true" />
 </p>
  
 ## MimCal for windows 
