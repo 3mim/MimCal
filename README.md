@@ -17,7 +17,7 @@ Mimcal become easy way to calcution of trading.
 <br>
 
 <p align="center">
-  <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif?raw=true" style="border-radius: 20px !Important;" with="100 px" />
+  <img width="30%" src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/dark.gif?raw=true" style="border-radius: 20px !Important;" with="100 px" />
 </p>
 
 <hr>
@@ -29,7 +29,7 @@ Mimcal become easy way to calcution of trading.
 <br>
 
 <p align="center" background="red">
-  <img src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
+  <img width="30%" src="https://github.com/3mim/MimCal/blob/main/PSD%20UI/language.gif?raw=true" />
 </p>
  
 ## Prerequisites
