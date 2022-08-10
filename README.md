@@ -33,7 +33,7 @@ Mimcal become easy way to calcution of trading.
 </p>
  
 ## MimCal for windows 
-<p>  download <a href="https://github.com/3mim/MimCal/blob/professional/mimcal.exe">Mimcal.exe</a></p>
+<p>  download <a href="https://github.com/3mim/MimCal/raw/professional/mimcal.exe">Mimcal.exe</a></p>
 
 ## Mimcal for Linux and macos
 
@@ -54,7 +54,7 @@ Mimcal become easy way to calcution of trading.
  <code> pip install webbrowser </code>
 </pre>
 
-## pyinsterller
+## pyinstaller
 
 ### if upx install
 <pre>
