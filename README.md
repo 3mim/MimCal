@@ -1,10 +1,10 @@
 ## What is MimCal
-MimCal is advance calculate forex and crypto currency market can calculate stop loss and Entry lot of size
-MimCal working on windows, Linux, Macos
-Mimcal become easy way to calcution of trading.
+MimCal is advance calculate forex and crypto currency market can calculate stop loss and Entry lot of size. <br/>
+MimCal working on windows, Linux, Macos<br/>
+Mimcal become easy way to calculations of trading.
 
 ## Document
-<p> if you're trader dont be doubt that you need Mimcal </p>
+<p> if you're trader you need Mimcal </p>
 
 ![alt text](https://github.com/3mim/MimCal/blob/professional/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
