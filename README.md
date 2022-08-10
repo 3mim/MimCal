@@ -22,9 +22,9 @@ Mimcal become easy way to calcution of trading.
 <p align="center">
    <p align="center">if you want to cal Entry lot size of Forex  needed 4 entry: </p>
    <p align="center">  1. Margin  </p>
-   <p align="center">  1. Risk  </p>
-   <p align="center">  1. Stop Loss (distance of stop loss to entry trade in pip)  </p>
-   <p align="center">  1. 1Lot per $ (value of 1 pip per 1 lot) </p>
+   <p align="center">  2. Risk  </p>
+   <p align="center">  3. Stop Loss (distance of stop loss to entry trade in pip)  </p>
+   <p align="center">  4. 1Lot per $ (value of 1 pip per 1 lot) </p>
    <p align="center"> <img  width="30%" src="https://github.com/3mim/MimCal/blob/professional/PSD%20UI/calulate_forex.gif?raw=true"  /> </p>
 </p>
 
