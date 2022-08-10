@@ -11,7 +11,7 @@ import customtkinter
 from pyglet import resource,font
 from webbrowser import open
 
-
+# add custom font 
 resource.add_font('fonts/IRANMarker.ttf')
 font_ = font.load('IRANMarker')
 
