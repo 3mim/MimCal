@@ -105,5 +105,7 @@ Mimcal become easy way to calculations of trading.
  </a>
 </p>
 website: https://treem.ir
-
+more info aboute MimCal: https://treem.ir/mimcal
+https://treem.ir/calculate-lot-size-forex-with-mimcal/
+https://treem.ir/calculate-stop-loss-crypto-with-mimcal/
 
