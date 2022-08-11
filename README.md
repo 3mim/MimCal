@@ -9,6 +9,7 @@ Mimcal become easy way to calculations of trading.
 ![alt text](https://github.com/3mim/MimCal/blob/professional/PSD%20UI/MIMcal_intro.jpg?raw=true)
 
 ## Calculation
+<p> this program include two side:</p>
 ### CRYPTO STOP LOSS
 <p align="center">
    <p align="center">if you want to cal stop loss you needed 2 entry: </p>
