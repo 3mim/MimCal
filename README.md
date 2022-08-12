@@ -82,19 +82,21 @@ Mimcal become easy way to calculations of trading.
 </pre>
 
 ## pyinstaller
-
-### if upx install
 <pre>
- <code> pyinstaller --upx-dir "upx address on youre device" -y --clean -F  --noconfirm   --onefile  --windowed --add-data "customtkinter library address" --add-data "custom font address" -i " youre icon location"   youre_script.py </code>
+ <code>  
+   
+pyinstaller --noconfirm --onefile --windowed --icon " icon location " --name " app name "  --debug "bootloader" --noupx --add-data " add address of customtkinter library " --add-data "add youre custom font" ;."  " youre script.py"
+
+ </code>
 </pre>
 
 
 
 ### example code
 <pre>
- <code> pyinstaller --upx-dir C:\Users\MORTEZA\upx-3.96-win64 -y --clean -F  --noconfirm   --onefile  --windowed --add-data "c:/users/morteza/appdata/local/programs/python/python310/lib/site-packages/customtkinter;customtkinter/" --add-data "C:/Users/MORTEZA/Documents/pythonCode/mori/IRANMarker.ttf;." -i "./mimcal.ico"   .\mimcal.py </code>
+ <code> pyinstaller --noconfirm --onefile --windowed --icon "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/mimcal.ico" --name "MimCal" --debug "bootloader" --noupx --add-data "C:/Users/MORTEZA/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" --add-data "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/fonts/IRANMarker.ttf;."  "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/mimcal.py" </code>
 </pre> 
-
+### NOTIC this code can prevent Windows Defender to detects an exe file as a virus.(to due debug is "bootloader")
 
 
 
