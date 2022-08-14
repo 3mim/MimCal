@@ -4,21 +4,18 @@
 # use python3 and tkinter for gui
 # CopyRight: GPL v3
 
-
 from tkinter import *
 from tkinter import messagebox
 import customtkinter
 from pyglet import resource,font
 from webbrowser import open
 
-# add custom font 
-resource.add_font('fonts/IRANMarker.ttf')
+
+
+
+# add custom fonts
+resource.add_font('fonts/IRANMarker.ttf') # for  pyinstaller use this code = resource.add_font('IRANMarker.ttf')
 font_ = font.load('IRANMarker')
-
-
-# set defult mode
-customtkinter.set_appearance_mode("system")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
 
 # color of forex frame
 forex_border="#16c297"
@@ -48,14 +45,16 @@ font_english = 'aria'
 
 
 # start  -> title,size ,icon
-window = Tk()
+window = customtkinter.CTk()
 window.title('MimCal')
-window.geometry('420x500')
-window.maxsize(420,700)
+
+window.geometry('320x500')
+window.maxsize(420,800)
 window.minsize(420,340)
 
 window.resizable(width=False,height=True)
 window.attributes('-topmost', True)
+window.iconbitmap('C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/logo.ico')
 # end  -> title,size ,icon
 
 # start all functions
@@ -179,7 +178,7 @@ def forex_calculate():
 
     if lo < 1 :
         if switch == 1:
-                messagebox.showinfo("info", "1 lot must be more than 0.01")
+                messagebox.showinfo("info", "pip value must be more than 0.01")
                 return
         if switch == 0:
                 messagebox.showinfo("اطلاعات", "  یک لات باید بشتر از  0.01 دلار باشد ")
@@ -220,6 +219,7 @@ def language():
     l = switch_language.get()
     l = int(l)
     if l == 1:
+
         switch_language.configure(text='فارسی',)
         #### top frame
         label_welcome.configure(font=(font_english,12),text='Welcom to Mim cal',)
@@ -231,6 +231,7 @@ def language():
         label_crypto_slider.configure(font=(font_english,10))
         button_crypto_answer.configure(text='Calculate SL')
         label_crypto_answer.configure(font=(font_english,10))
+
         # #### bottom frame
         label_forex_name.configure(text=' Lot Size of Forex ',font=(font_english,13),)
         label_forex_value.configure(text=' : Margin',font=(font_english,10))
@@ -239,15 +240,16 @@ def language():
         entry_forex_risk.configure(font=(font_english,10),placeholder_text='example : 2',justify='left')
         label_forex_sl.configure(text=': (pip)stop loss',font=(font_english,10))
         entry_forex_sl.configure(font=(font_english,10),placeholder_text='example : 15',justify='left')
-        label_forex_lot.configure(text=': 1 lot',font=(font_english,10))
+        label_forex_lot.configure(text=': pip value per 1 lot',font=(font_english,10))
         entry_forex_lot.configure(font=(font_english,10),placeholder_text='example : 10',justify='left',)
         button_forex_answer.configure(text='Calculate lot size')
         label_forex_answer.configure(font=(font_english,10))
+
     else:
         # check_font()
         switch_language.configure(text='english')
         #### top frame
-        label_welcome.configure(font=(font_persian,12),text='به ترید میم خوش آمدید')
+        label_welcome.configure(font=(font_persian,12),text='به ماشین حساب میم خوش آمدید')
         # #### center frame
         label_crypto_name.configure(text='حد ضرر کریپتو  ',font=(font_persian,13))
         label_crypto_risk.configure(text=': درصد ریسک ',font=(font_persian,9))
@@ -264,7 +266,7 @@ def language():
         entry_forex_risk.configure(font=(font_persian,9),placeholder_text='مثال : 2',justify='right')
         label_forex_sl.configure(text=': (pip) حدضرر',font=(font_persian,9))
         entry_forex_sl.configure(font=(font_persian,9),placeholder_text='مثال : 15',justify='right')
-        label_forex_lot.configure(text=': 1 lot ارزش',font=(font_persian,9))
+        label_forex_lot.configure(text=':1 lot  به ازای pip ارزش یک',font=(font_persian,9))
         entry_forex_lot.configure(font=(font_persian,10),placeholder_text='مثال : 10',justify='right',)
         button_forex_answer.configure(text='محاسبه حجم ورودی',)
         label_forex_answer.configure(font=(font_persian,9),)
@@ -274,8 +276,9 @@ def language():
 def dark_Light_mode():
     l = switch_mode.get()
     l = int(l)
-    if l == 1 :
-        customtkinter.set_appearance_mode("dark") 
+    if l == 1 : # Dark  Mode
+        customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
+        customtkinter.set_appearance_mode("dark")
         my_canvas.configure(bg='#4a4b4d')
         switch_mode.configure(text='Light Mode')
         mainframe.configure(bg='#4a4b4d')
@@ -308,11 +311,15 @@ def dark_Light_mode():
         frame_crypto_name.configure(fg_color='#395e9c')
         # silder
         leverage.configure(progress_color='#aab0b5')
-    
+        window.pack_propagate(1)
+        window.pack_propagate(0)
+
+
 
         
 
     else:
+        customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
         customtkinter.set_appearance_mode("light")  
         my_canvas.configure(bg='white')
         switch_mode.configure(text='Dark Mode')
@@ -346,6 +353,7 @@ def dark_Light_mode():
         button_forex_answer.configure(text_color='white')
         # silder
         leverage.configure(progress_color='#6b98af')
+
 # mode function
 # end all functions
 
@@ -381,14 +389,13 @@ def create_menu():
 
 # start all frame
 # start Create A Canvas
-my_canvas = Canvas(window,width=0,)
-my_canvas.pack(side=LEFT,fill=BOTH,expand=1)
-
+my_canvas = customtkinter.CTkCanvas(window,width=100,)
+my_canvas.pack(side=LEFT,fill=BOTH,expand=1,)
 # end Create A Canvas
 
 # start Add A Scrollbars to Canvas
-y_scrollbar = Scrollbar(window,orient=VERTICAL,command=my_canvas.yview,)
-y_scrollbar.pack(side=RIGHT,fill=Y)
+y_scrollbar = customtkinter.CTkScrollbar(window,orientation=VERTICAL,command=my_canvas.yview,)
+y_scrollbar.pack(side=RIGHT,fill=Y,)
 # end Add A Scrollbars to Canvas
 
 # start Configure the canvas
@@ -429,6 +436,7 @@ label_crypto_risk.pack(side='right',anchor='n',pady=10)
 
 entry_crypto_risk =customtkinter.CTkEntry(master=frame_crypto_risk,border_color='{}'.format(crypto_border),placeholder_text_color='#666666',placeholder_text='')
 entry_crypto_risk.pack(side='right',anchor='n',pady=10,padx=40)
+entry_crypto_risk.focus()
 # end risk-crypto frame
 
 # start leverage-crypto frame
@@ -511,6 +519,8 @@ label_forex_lot.pack(side='right',anchor='n',pady=10)
 
 entry_forex_lot =customtkinter.CTkEntry(master=frame_forex_lot,border_color='{}'.format(forex_border),placeholder_text_color='#666666',placeholder_text='')
 entry_forex_lot.pack(side='right',anchor='n',pady=10,padx=40)
+# entry_forex_lot.insert(0,'10')
+
 # end lot-forex frame
 
 # start answer-forex frame
@@ -540,5 +550,3 @@ switch_language.select()
 
 my_canvas.create_window(0,0,window=mainframe)
 window.mainloop()
-
-
