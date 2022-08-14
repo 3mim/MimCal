@@ -81,6 +81,51 @@ Mimcal become easy way to calculations of trading.
  <code> pip install pyglet </code>
 </pre>
 
+
+## Cx Freeze setup
+<pre>
+ import sys
+from cx_Freeze import setup, Executable
+
+# Dependencies are automatically detected, but it might need fine tuning.
+build_exe_options = {'include_files':[' youre font location '],"includes": ["tkinter","customtkinter",],"excludes": ["_distutils_hack", "cffi", "concurrent", 
+                                  "curses",
+                                  "email",
+                                  "html",
+                                  "http", 
+                                  "lib2to3",
+                                  "logging",
+                                  "msilib",
+                                  "multiprocessing",
+                                  "numpy",
+                                  "PIL",
+                                  "pkg_resources",
+                                  "pycparser",
+                                  "pydoc_data",
+                                  "PyInstaller",
+                                  "setuptools",
+                                  "test",
+                                  "test",
+                                  "win32ctypes",
+                                  "xml",
+                                  "xmlrpc"],
+                                  
+                                  "optimize": 2}
+# GUI applications require a different base on Windows (the default is for a
+# console application).
+base = None
+if sys.platform == "win32":
+    base = "Win32GUI"
+
+setup(
+    name = "mimcal",
+    version = "0.1",
+    description = "trading application",
+    options = {"build_exe": build_exe_options},
+    executables = [Executable("mimcal.py", base = base,shortcutName="MimCal",shortcutDir="DesktopFolder",icon=" youre logo.ico ")]
+    
+    )
+</pre>
 ## pyinstaller
 <pre>
  <code>  
@@ -96,7 +141,6 @@ pyinstaller --noconfirm --onefile --windowed --icon " icon location " --name " a
 <pre>
  <code> pyinstaller --noconfirm --onefile --windowed --icon "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/mimcal.ico" --name "MimCal" --debug "bootloader" --noupx --add-data "C:/Users/MORTEZA/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" --add-data "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/fonts/IRANMarker.ttf;."  "C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/mimcal.py" </code>
 </pre> 
-### NOTIC this code can prevent Windows Defender to detects an exe file as a virus.(to due debug is "bootloader")
 
 
 
@@ -113,4 +157,6 @@ more info aboute MimCal: https://treem.ir/mimcal <br>
 https://treem.ir/calculate-lot-size-forex-with-mimcal/ <br>
 
 https://treem.ir/calculate-stop-loss-crypto-with-mimcal/
+
+
 
