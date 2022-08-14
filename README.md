@@ -84,6 +84,7 @@ Mimcal become easy way to calculations of trading.
 
 ## Cx Freeze setup
 <pre>
+<code>
  import sys
 from cx_Freeze import setup, Executable
 
@@ -125,6 +126,8 @@ setup(
     executables = [Executable("mimcal.py", base = base,shortcutName="MimCal",shortcutDir="DesktopFolder",icon=" youre logo.ico ")]
     
     )
+</code>
+    
 </pre>
 ## pyinstaller
 <pre>
