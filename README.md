@@ -55,7 +55,7 @@ Mimcal become easy way to calculations of trading.
 </p>
  
 ## MimCal for windows 
-<p>  download <a href="https://github.com/3mim/MimCal/raw/professional/MimCal%200.1.zip">Mimcal</a></p>
+<p>  <a  href="https://treem.ir/wp-content/uploads/2022/08/MimCal-0.1.zip" >Mimcal</a></p>
 
 ## MimCal for Linux and macOS
 
