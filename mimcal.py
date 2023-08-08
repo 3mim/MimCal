@@ -54,7 +54,7 @@ window.minsize(420,340)
 
 window.resizable(width=False,height=True)
 window.attributes('-topmost', True)
-window.iconbitmap('C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/logo.ico')
+#window.iconbitmap('C:/Users/MORTEZA/Documents/pythonCode/MimCal/test/logo.ico') # icon path
 # end  -> title,size ,icon
 
 # start all functions
