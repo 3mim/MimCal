@@ -62,8 +62,8 @@ Mimcal become easy way to calculations of trading.
 ### Two ways to run Mimcal
 #### 1. Install <a href="https://www.winehq.org">wine</a> for youre Mac or linux  and run <a  href="https://github.com/3mim/MimCal/files/10520765/MimCal-0.1_2.zip" >Mimcal</a> 
 #### 2. Run with python and sorce code 
-
-#### Prerequisites
+<hr>
+### Prerequisites
 <p> Tkinter for GUI <p>
 <pre>
  <code> pip install tkinter </code>
