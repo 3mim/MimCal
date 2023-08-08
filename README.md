@@ -59,8 +59,11 @@ Mimcal become easy way to calculations of trading.
 
 ## MimCal for Linux and macOS
 
-### Prerequisites
+### Two ways to run Mimcal
+#### 1. Install <a href="https://www.winehq.org">wine</a> for youre Mac or linux  and run <a  href="https://github.com/3mim/MimCal/files/10520765/MimCal-0.1_2.zip" >Mimcal</a> 
+#### 2. Run with python and sorce code 
 
+#### Prerequisites
 <p> Tkinter for GUI <p>
 <pre>
  <code> pip install tkinter </code>
@@ -68,7 +71,7 @@ Mimcal become easy way to calculations of trading.
 
 <p> customtkinter for  modernize GUI <p>
 <pre>
- <code> pip install customtkinter </code>
+ <code> pip install customtkinter==4.5.10 </code>
 </pre>
 
 <p> webbrowser  <p>
@@ -78,7 +81,7 @@ Mimcal become easy way to calculations of trading.
 
 <p> pyglet for custom fonts  <p>
 <pre>
- <code> pip install pyglet </code>
+ <code> pip install pyglet==1.5.26 </code>
 </pre>
 
 
